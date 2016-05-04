@@ -5,17 +5,14 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
   <display-name></display-name>	
-  <filter>
-  	<filter-name>UrlRewriteFilter</filter-name>
-  	<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
-  </filter>
-  <filter-mapping>
-  	<filter-name>UrlRewriteFilter</filter-name>
-  	<url-pattern>/*</url-pattern>
-  	<dispatcher>REQUEST</dispatcher>
-  	<dispatcher>FORWARD</dispatcher>
-  </filter-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  
+  <jsp-config>
+  	<taglib>
+  		<taglib-uri>/hello</taglib-uri>
+  		<taglib-location>./custom.tld</taglib-location>
+  	</taglib>
+  </jsp-config>
 </web-app>

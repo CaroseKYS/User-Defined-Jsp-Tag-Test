@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="UrlRewrite"
-  id="myeclipse.1460701429548"
-  context-root="/UrlRewrite"
+  name="TestJSPTag"
+  id="myeclipse.1462347631176"
+  context-root="/TestJSPTag"
   j2ee-spec="5.0"
-  archive="UrlRewrite.war">
+  archive="TestJSPTag.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>
